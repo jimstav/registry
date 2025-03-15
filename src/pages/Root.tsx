@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 function Root() {
   return (
-    <div>
+    <div className="container mx-auto lg:px-20">
       <Header />
       <Outlet />
     </div>
